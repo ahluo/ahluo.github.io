@@ -211,16 +211,6 @@
           </a>
         </li>
       
-        
-        <li class="menu-item menu-item-commonweal">
-          <a href="/404.html" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
-            
-            公益404
-          </a>
-        </li>
-      
 
       
     </ul>
@@ -260,8 +250,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/08/03/hello-world/" itemprop="url">
-                  Hello World
+                <a class="post-title-link" href="/2016/07/30/windows下为laravel配置nginx服务器/" itemprop="url">
+                  windows下为laravel配置nginx服务器
                 </a>
               
             
@@ -274,8 +264,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-03T17:26:48+08:00" content="2016-08-03">
-              2016-08-03
+            <time itemprop="dateCreated" datetime="2016-07-30T19:28:02+08:00" content="2016-07-30">
+              2016-07-30
             </time>
           </span>
 
@@ -289,7 +279,7 @@
 
           
           
-             <span id="/2016/08/03/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
+             <span id="/2016/07/30/windows下为laravel配置nginx服务器/" class="leancloud_visitors" data-flag-title="windows下为laravel配置nginx服务器">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -313,16 +303,993 @@
       
         
           
-            <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+            <h3 id="error1"><a href="#error1" class="headerlink" title="error1:"></a>error1:</h3><p>nginx下php文件需要php_cgi<br>php.ini中cgi.fix_pathinfo=1</p>
+<h3 id="error2："><a href="#error2：" class="headerlink" title="error2："></a>error2：</h3><p>只能访问index.php，其他路由404，未设置或Rewrite规则错了<br>location / {<br>root   D:/gitProject/laravel/public;<br>index  index.php;<br>try_files $uri $uri/ /index.php?$query_string;<br>}</p>
 
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/07/21/bug记录之tomcat意外关机自动重启后链接不上数据库除非手动重启/" itemprop="url">
+                  bug记录之tomcat意外关机自动重启后链接不上数据库除非手动重启
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-21T19:28:02+08:00" content="2016-07-21">
+              2016-07-21
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/07/21/bug记录之tomcat意外关机自动重启后链接不上数据库除非手动重启/" class="leancloud_visitors" data-flag-title="bug记录之tomcat意外关机自动重启后链接不上数据库除非手动重启">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>tomcat停电关机，自动重启后链接不上mysql数据库，除非手动重启tomcat服务<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service tomcat7 restart</div></pre></td></tr></table></figure></p>
+<p>速度上虽然DBCP比C3P0快些，但是有BUG：当DBCP建立的数据库连接，因为某种原因断掉后，DBCP将不会再重新创建新的连接，导致必须重新启动Tomcat才能解决问题。采用C3P0作为数据库连接池。</p>
+<h2 id="spring-hibernate-c3p0-maven"><a href="#spring-hibernate-c3p0-maven" class="headerlink" title="spring+hibernate+c3p0+maven"></a>spring+hibernate+c3p0+maven</h2><h3 id="pom-xml"><a href="#pom-xml" class="headerlink" title="pom.xml"></a>pom.xml</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">&lt;dependency&gt;</div><div class="line">	&lt;groupId&gt;org.hibernate&lt;/groupId&gt;</div><div class="line">	&lt;artifactId&gt;hibernate-core&lt;/artifactId&gt;</div><div class="line">	&lt;version&gt;4.2.20.Final&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div><div class="line">&lt;dependency&gt;</div><div class="line">	&lt;groupId&gt;com.mchange&lt;/groupId&gt;</div><div class="line">	&lt;artifactId&gt;c3p0&lt;/artifactId&gt;</div><div class="line">	&lt;version&gt;4.2.20.Final&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div><div class="line">&lt;dependency&gt;</div><div class="line">    &lt;groupId&gt;org.hibernate&lt;/groupId&gt;</div><div class="line">    &lt;artifactId&gt;hibernate-c3p0&lt;/artifactId&gt;</div><div class="line">    &lt;version&gt;4.2.20.Final&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div><div class="line">&lt;dependency&gt;</div><div class="line">	&lt;groupId&gt;org.hibernate.common&lt;/groupId&gt;</div><div class="line">	&lt;artifactId&gt;hibernate-commons-annotations&lt;/artifactId&gt;</div><div class="line">	&lt;version&gt;4.0.4.Final&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div><div class="line">&lt;dependency&gt;</div><div class="line">	&lt;groupId&gt;org.hibernate.javax.persistence&lt;/groupId&gt;</div><div class="line">	&lt;artifactId&gt;hibernate-jpa-2.0-api&lt;/artifactId&gt;</div><div class="line">	&lt;version&gt;1.0.1.Final&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div></pre></td></tr></table></figure>
+<h3 id="applicationContext-xml"><a href="#applicationContext-xml" class="headerlink" title="applicationContext.xml"></a>applicationContext.xml</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">&lt;bean id=<span class="string">"dataSource"</span> class=<span class="string">"com.mchange.v2.c3p0.ComboPooledDataSource"</span> destroy-method=<span class="string">"close"</span>&gt;</div><div class="line">&lt;property name=<span class="string">"driverClass"</span>&gt;</div><div class="line">        &lt;value&gt;<span class="variable">$&#123;connection.driver_class&#125;</span>&lt;/value&gt;</div><div class="line">&lt;/property&gt;</div><div class="line">&lt;property name=<span class="string">"jdbcUrl"</span>&gt;</div><div class="line">	&lt;value&gt;<span class="variable">$&#123;connection.url&#125;</span>&lt;/value&gt;</div><div class="line">&lt;/property&gt;</div><div class="line">&lt;property name=<span class="string">"user"</span>&gt;</div><div class="line">	&lt;value&gt;<span class="variable">$&#123;connection.username&#125;</span>&lt;/value&gt;</div><div class="line">&lt;/property&gt;</div><div class="line">&lt;property name=<span class="string">"password"</span>&gt;</div><div class="line">	&lt;value&gt;<span class="variable">$&#123;connection.password&#125;</span>&lt;/value&gt;</div><div class="line">&lt;/property&gt;</div><div class="line">&lt;property name=<span class="string">"minPoolSize"</span> value=<span class="string">"10"</span>/&gt;</div><div class="line">&lt;property name=<span class="string">"maxPoolSize"</span> value=<span class="string">"20"</span>/&gt;</div><div class="line">&lt;property name=<span class="string">"maxIdleTime"</span> value=<span class="string">"30"</span>/&gt;</div><div class="line">&lt;property name=<span class="string">"acquireIncrement"</span> value=<span class="string">"3"</span>/&gt;</div><div class="line">&lt;/bean&gt;</div></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/07/14/ubuntu操作命令/" itemprop="url">
+                  ubuntu操作命令
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-14T19:28:02+08:00" content="2016-07-14">
+              2016-07-14
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/07/14/ubuntu操作命令/" class="leancloud_visitors" data-flag-title="ubuntu操作命令">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="跳板机"><a href="#跳板机" class="headerlink" title="跳板机"></a>跳板机</h3><p>ssh user_name@192.8.6.120</p>
+<h3 id="服务器接收文件"><a href="#服务器接收文件" class="headerlink" title="服务器接收文件"></a>服务器接收文件</h3><p>rz</p>
+<h3 id="服务器发送文件"><a href="#服务器发送文件" class="headerlink" title="服务器发送文件"></a>服务器发送文件</h3><p>sz filename</p>
+<h3 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">rm <span class="_">-f</span> -r filename</div><div class="line">sudo rm -rf folderName</div><div class="line">sudo rm -r /path/to/folderName</div><div class="line">FYI: you can use letters <span class="_">-f</span>, -r, -v:</div><div class="line"></div><div class="line">	* <span class="_">-f</span> = to ignore non-existent files, never prompt</div><div class="line">	* -r = to remove directories and their contents recursively</div><div class="line">	* -v = to explain what is being <span class="keyword">done</span></div></pre></td></tr></table></figure>
+<h3 id="导出数据库"><a href="#导出数据库" class="headerlink" title="导出数据库"></a>导出数据库</h3><p>mysqldump -u 用户名 -p 数据库名 &gt; 导出的文件名</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/07/01/jQuery Uploadify 404/" itemprop="url">
+                  jQuery Uploadify上传控件加载导致的GET 404 Not Found问题
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-01T19:28:02+08:00" content="2016-07-01">
+              2016-07-01
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/07/01/jQuery Uploadify 404/" class="leancloud_visitors" data-flag-title="jQuery Uploadify上传控件加载导致的GET 404 Not Found问题">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>原来问题的症结在于SWFUpload，这个是Uploadify调用供支持Flash上传用的，但是其没有对button_image_url进行判断，导致如果button_image_url为空的话就默认请求了当前根路径，修改的方法也比较简单，加个判断即可<br>[链接]<a href="http://wangye.org/blog/archives/851/" target="_blank" rel="external">http://wangye.org/blog/archives/851/</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/07/01/git操作笔记/" itemprop="url">
+                  git操作笔记
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-01T19:28:02+08:00" content="2016-07-01">
+              2016-07-01
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/07/01/git操作笔记/" class="leancloud_visitors" data-flag-title="git操作笔记">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="error"><a href="#error" class="headerlink" title="error"></a>error</h3><p>git pull报错 error:<br>RPC failed; result=56, HTTP code = 200  fatal: The remote end hung up unexpectedly</p>
+<h3 id="原因："><a href="#原因：" class="headerlink" title="原因："></a>原因：</h3><p>使用方式不规范，一个大文件反复修改提交，项目占用空间太大了，拉不下来</p>
+<h3 id="解决方式："><a href="#解决方式：" class="headerlink" title="解决方式："></a>解决方式：</h3><p>新建git项目</p>
+<h2 id="git操作"><a href="#git操作" class="headerlink" title="git操作"></a>git操作</h2><h3 id="git-关闭调试"><a href="#git-关闭调试" class="headerlink" title="git 关闭调试"></a>git 关闭调试</h3><p>unset GIT_TRACE_PACKET GIT_TRACE GIT_CURL_VERBOSE</p>
+<h3 id="git-打开调试"><a href="#git-打开调试" class="headerlink" title="git 打开调试"></a>git 打开调试</h3><p>export GIT_TRACE_PACKET=1<br>export GIT_TRACE=1<br>export GIT_CURL_VERBOSE=1</p>
+<h3 id="git-clone操作"><a href="#git-clone操作" class="headerlink" title="git clone操作"></a>git clone操作</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> test.git --depth=1</div><div class="line">--depth=1</div><div class="line"><span class="comment">#仅获取最新版和一个历史版本,即最后2个版本</span></div><div class="line">git <span class="built_in">clone</span> git@github.com:nutzam/nutz --depth=1</div></pre></td></tr></table></figure>
+<h3 id="git回退操作"><a href="#git回退操作" class="headerlink" title="git回退操作"></a>git回退操作</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git reset --hard 640e</div><div class="line">HEAD is now at 640ef94</div></pre></td></tr></table></figure>
+<h3 id="ssh-keygen"><a href="#ssh-keygen" class="headerlink" title="ssh-keygen"></a>ssh-keygen</h3><p>添加publicKey到项目<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"test"</span></div><div class="line">git config --global user.email <span class="string">"test@example.com"</span></div><div class="line"><span class="built_in">eval</span> <span class="string">"<span class="variable">$(ssh-agent -s)</span>"</span></div><div class="line">ssh-add ~/.ssh/st_rsa</div></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/07/01/laravel报错记录/" itemprop="url">
+                  laravel报错记录
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-01T19:28:02+08:00" content="2016-07-01">
+              2016-07-01
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/07/01/laravel报错记录/" class="leancloud_visitors" data-flag-title="laravel报错记录">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="0701"><a href="#0701" class="headerlink" title="0701"></a>0701</h3><p>FatalThrowableError in ExceptionsCollector.php line 28:<br>原因：代码中()没有匹配</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/06/02/ubuntu安装gitlab社区版/" itemprop="url">
+                  ubuntu安装gitlab社区版
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-06-02T19:28:02+08:00" content="2016-06-02">
+              2016-06-02
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/06/02/ubuntu安装gitlab社区版/" class="leancloud_visitors" data-flag-title="ubuntu安装gitlab社区版">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>总结：ubuntu trusty版本，对应版本下载正确，卸载干净，<br>安装依赖-&gt;安装包-&gt;sudo gitlab-ctl reconfigure<br><a href="https://gitlab.com/gitlab-org/omnibus-gitlab" target="_blank" rel="external">https://gitlab.com/gitlab-org/omnibus-gitlab</a></p>
+<p><a href="https://about.gitlab.com/downloads/#ubuntu1404" target="_blank" rel="external">https://about.gitlab.com/downloads/#ubuntu1404</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install curl openssh-server ca-certificates postfix</div><div class="line"><span class="built_in">cd</span> ~</div><div class="line"><span class="comment">#sudo dpkg -i gitlab-ce_8.8.2-ce.0_amd64.deb</span></div><div class="line"><span class="comment">#sudo gitlab-ctl reconfigure</span></div><div class="line"><span class="comment">#sudo -e /etc/gitlab/gitlab.rb</span></div><div class="line"><span class="comment">#--external_url = 'http://MyIp'</span></div><div class="line"></div><div class="line">curl <span class="_">-s</span> https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash</div><div class="line">sudo apt-get install gitlab-ce=7.14.3-ce.1</div><div class="line">wget http://mirrors.zju.edu.cn/gitlab-ce/ubuntu/pool/trusty/main/g/gitlab-ce/gitlab-ce_8.8.2-ce.0_amd64.deb</div><div class="line">sudo dpkg -i gitlab-ce_8.8.2-ce.0_amd64.deb</div><div class="line">sudo gitlab-ctl reconfigure</div><div class="line">sudo gitlab-ctl reconfigure</div></pre></td></tr></table></figure>
+<p>#500 error<br>sudo vim /var/log/gitlab/gitlab-rails/production.log<br>sudo -e /etc/gitlab/gitlab.rb</p>
+<p>sudo lsb_release -a<br>版本查看<br>sudo netstat -nutlp<br>–查看开放端口<br>外网连接mysql<br><a href="http://bbs.qcloud.com/thread-4670-1-1.html" target="_blank" rel="external">http://bbs.qcloud.com/thread-4670-1-1.html</a></p>
+<p>Uninstalling omnibus-gitlabTo uninstall omnibus-gitlab, preserving your data (repositories, database, configuration), run the following commands.</p>
+<p>#Stop gitlab and remove its supervision process<br>sudo gitlab-ctl uninstall</p>
+<p>#Debian/Ubuntu<br>sudo dpkg -r gitlab</p>
+<p>#Redhat/Centos<br>sudo rpm -e gitlab<br>To remove all omnibus-gitlab data use sudo gitlab-ctl cleanse.<br>To remove all users and groups created by omnibus-gitlab, before removing the gitlab package (with dpkg or yum) run sudo gitlab-ctl remove_users.Note All gitlab processes need to be stopped before runnign the command.</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/06/01/mongoDB小试/" itemprop="url">
+                  mongoDB小试
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-06-01T19:28:02+08:00" content="2016-06-01">
+              2016-06-01
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/06/01/mongoDB小试/" class="leancloud_visitors" data-flag-title="mongoDB小试">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="mongoDB安装"><a href="#mongoDB安装" class="headerlink" title="mongoDB安装"></a>mongoDB安装</h3><p>sc delete MongoDB<br>mongod –dbpath=D:\mongodb\data\db –logpath=D:\mongodb\logs\mongodb.log –install<br>net start MongoDB<br>net stop MongoDB<br>mongo</p>
+<h3 id="打开mongo-shell"><a href="#打开mongo-shell" class="headerlink" title="打开mongo shell"></a>打开mongo shell</h3><p>show dbs<br>use test-obor<br>db.dropDatabase()<br>db.copyDatabase(‘test-dev’,’test-obor’)</p>
+<blockquote>
+<p>mongodump -h dbhost -d dbname -o dbdirectory</p>
+</blockquote>
+<pre><code>* -h：MongDB所在服务器地址，例如：127.0.0.1，当然也可以指定端口号：127.0.0.1:27017
+
+* -d：需要备份的数据库实例，例如：test
+
+* -o：
+</code></pre><p>备份的数据存放位置，例如：c:\data\dump，当然该目录需要提前建立，在备份完成后，系统自动在dump目录下建立一个test目录，这个目录里面存放该数据库实例的备份数据。</p>
+<blockquote>
+<p>mongorestore -h dbhost -d dbname –directoryperdb dbdirectory</p>
+</blockquote>
+<pre><code>* -h：MongoDB所在服务器地址
+
+* -d：需要恢复的数据库实例，例如：test，当然这个名称也可以和备份时候的不一样，比如test2
+
+* --directoryperdb：备份数据所在位置，例如：c:\data\dump\test，这里为什么要多加一个test，而不是备份时候的dump，读者自己查看提示吧！
+
+* --drop：
+</code></pre><p>恢复的时候，先删除当前数据，然后恢复备份的数据。就是说，恢复后，备份后添加修改的数据都会被删除，慎用哦！</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/05/26/部署云主机laravel+nginx+ubuntu/" itemprop="url">
+                  部署云主机laravel+nginx+ubuntu
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-26T20:15:22+08:00" content="2016-05-26">
+              2016-05-26
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/05/26/部署云主机laravel+nginx+ubuntu/" class="leancloud_visitors" data-flag-title="部署云主机laravel+nginx+ubuntu">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="mysql数据库"><a href="#mysql数据库" class="headerlink" title="mysql数据库"></a>mysql数据库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">sudo apt-get update</div><div class="line">sudo apt-get install mysql-server-5.6 mysql-client-5.6 git</div><div class="line">nano /etc/mysql/my.cnf</div><div class="line">     127.0.0.1-&gt; myIP</div><div class="line">     nano单文本编辑器</div><div class="line">sudo service mysql restart</div><div class="line">cat /root/.ssh/id_rsa.pub 输出的内容添加到后台</div><div class="line">     cat命令的用途是连接文件或标准输入并打印。这个命令常用来显示文件内容，或者将几个文件连接起来显示，或者从标准输入读取内容并显示，它常与重定向符号配合使用。 </div><div class="line">sudo ssh-keygen</div><div class="line">sudo cat /root/.ssh/id_rsa.pub</div><div class="line">mysql -uroot -p</div><div class="line">mysql&gt; create database <span class="built_in">test</span>;</div><div class="line">mysql&gt; use <span class="built_in">test</span>;</div><div class="line">mysql&gt; <span class="built_in">source</span> /home/ubuntu/test.sql;</div><div class="line">mysql&gt; create user <span class="string">'test'</span>@<span class="string">'%'</span> identified by <span class="string">'test'</span>;</div><div class="line">mysql&gt; grant all privileges on test.* to <span class="string">'test'</span>@<span class="string">'%'</span>;</div></pre></td></tr></table></figure>
+<p>格式： MySQL -h主机地址 -u用户名 -p用户密码<br>CREATE USER ‘username’@’host’ IDENTIFIED BY ‘password’;</p>
+<p>说明:<br>username – 你将创建的用户名,<br>host – 指定该用户在哪个主机上可以登陆,如果是本地用户可用localhost,  如果想让该用户可以从任意远程主机登陆,可以使用通配符%.<br>password –  该用户的登陆密码,密码可以为空,如果为空则该用户可以不需要密码登陆服务器.</p>
+<p>GRANT privileges ON databasename.tablename TO ‘username’@’host’<br>说明:<br>privileges – 用户的操作权限,如SELECT , INSERT , UPDATE  等.如果要授予所有的权限则使用ALL.;<br>databasename –  数据库名,tablename-表名,果要授予该用户对所有数据库和表的相应操作权限则可用<em> 表示, 如</em>.*.</p>
+<hr>
+<h3 id="laravel-portal项目"><a href="#laravel-portal项目" class="headerlink" title="laravel-portal项目"></a>laravel-portal项目</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install nginx</div><div class="line">sudo service nginx start</div><div class="line">sudo apt-get install python-software-properties</div><div class="line">sudo apt-get install software-properties-common</div><div class="line">sudo add-apt-repository ppa:ondrej/php5-5.6</div><div class="line">sudo apt-get install php5 php5-fpm php5-mysql</div><div class="line">npm config <span class="built_in">set</span> registry=<span class="string">"https://registry.npm.taobao.org"</span></div><div class="line">sudo apt-get install php5-curl</div><div class="line">sudo apt-get install nodejs</div><div class="line">sudo apt-get install npm</div><div class="line">sudo apt-get install nodejs-legacy</div><div class="line">npm config <span class="built_in">set</span> registry=<span class="string">"https://registry.npm.taobao.org"</span></div><div class="line">curl <span class="_">-s</span>S http://install.phpcomposer.com/installer | sudo php -- --install-dir=/usr/<span class="built_in">local</span>/bin --filename=composer</div><div class="line">     安装composer到指定文件</div><div class="line">composer config -g repo.packagist composer http://packagist.phpcomposer.com</div><div class="line">     使用国内镜像</div><div class="line"></div><div class="line">sudo chown ubuntu /etc/nginx/sites-available/default</div><div class="line">sudo chown root /etc/nginx/sites-available/default</div><div class="line">sudo nginx <span class="_">-s</span> reload</div><div class="line">sudo service nginx restart</div><div class="line"></div><div class="line">git <span class="built_in">clone</span> laravel-portal.git</div><div class="line"></div><div class="line">composer install</div><div class="line">npm install</div><div class="line">bower install</div><div class="line">php artisan key:generate</div><div class="line">gulp</div><div class="line">     gulp-notify: [Error <span class="keyword">in</span> notifier] Error <span class="keyword">in</span> plugin <span class="string">'gulp-notify'</span></div><div class="line"><span class="built_in">cd</span> laravel-portal</div><div class="line">sudo chown ubuntu -R .</div><div class="line">git pull</div><div class="line"><span class="comment"># composer update</span></div><div class="line">gulp</div><div class="line">sudo chown www-data:www-data -R .</div></pre></td></tr></table></figure>
+<h3 id="nginx卸载"><a href="#nginx卸载" class="headerlink" title="nginx卸载"></a>nginx卸载</h3><p>apt-get remove –purge nginx nginx-full nginx-common<br>ningx -log /var/log/nginx 分别是access.log和error.log</p>
+<h3 id="开放云服务器端口"><a href="#开放云服务器端口" class="headerlink" title="开放云服务器端口"></a>开放云服务器端口</h3><p>如果想看某个端口的信息，使用lsof命令，如：<br>sudo lsof -i :631</p>
+<p>进入安全组后,新建一个规则,开启80端口(网站默认80).（腾讯云）<br>history &gt; file 历史命令保存</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/05/25/Linux操作记录/" itemprop="url">
+                  Linux操作记录
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-25T20:15:22+08:00" content="2016-05-25">
+              2016-05-25
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/05/25/Linux操作记录/" class="leancloud_visitors" data-flag-title="Linux操作记录">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>sudo chown www-data <em>.</em> 更换所有者<br>sudo chmod 755 start.sh 添加执行权限<br>ps -ef |grep tomcat 查看进程</p>
+<h3 id="查询安装路径"><a href="#查询安装路径" class="headerlink" title="查询安装路径"></a>查询安装路径</h3><p>在Linux操作系统中查看软件安装路径是通过whereis 命令，如查看php软件的安装路径时输入命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">ubuntu@localhost:~$ whereis php</div><div class="line">php: /usr/bin/php /usr/bin/X11/php /usr/share/man/man1/php.1.gz</div><div class="line">ubuntu@localhost:~$ php -i | grep php.ini</div><div class="line">Configuration File (php.ini) Path =&gt; /etc/php5/cli</div><div class="line">Loaded Configuration File =&gt; /etc/php5/cli/php.ini</div></pre></td></tr></table></figure>
+<p>查询运行文件所在地址（文件夹地址）是通过which命令。<br>如查看php文件夹的地址：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ubuntu@localhost:~$ <span class="built_in">which</span> php</div><div class="line">/usr/bin/php</div></pre></td></tr></table></figure>
+<p>Errors were encountered while processing:linux-image–generic<br>E: Sub-process /usr/bin/dpkg returned an error code (1)<br>ubuntu cannot copy extracted data for failed to write (no space left on device)</p>
+<p>Freeing Up Space on the /boot File SystemThe Original Poster has a separate /boot partition, and that is what is full and preventing the apt system from working. It will be necessary for him to free up space there.<br>If there almost enough space, go to /boot and remove a config file or two:<br>ubuntu_root@ubuntu-services:/boot$ sudo rm vmlinuz-4.2.0-35-generic<br>ubuntu_root@ubuntu-services:/boot$ sudo rm System.map-4.2.0-35-generic<br>ubuntu_root@ubuntu-services:/boot$ sudo rm initrd.img-4.2.0-35-generic<br>ubuntu_root@ubuntu-services:/boot$ sudo rm config-4.2.0-35-generic<br>ubuntu_root@ubuntu-services:/boot$ sudo rm abi-4.2.0-35-generic<br>ubuntu_root@ubuntu-services:/boot$ df -h<br>Filesystem                              Size  Used Avail Use% Mounted on<br>udev                                    2.0G  8.0K  2.0G   1% /dev<br>tmpfs                                   396M  704K  395M   1% /run<br>/dev/mapper/ubuntu–services–vg-root   95G  3.9G   86G   5% /<br>none                                    4.0K     0  4.0K   0% /sys/fs/cgroup<br>none                                    5.0M     0  5.0M   0% /run/lock<br>none                                    2.0G     0  2.0G   0% /run/shm<br>none                                    100M     0  100M   0% /run/user<br>/dev/sda1                               236M  167M   57M  75% /boot</p>
+<p>Setting up tomcat7 (7.0.52-1ubuntu0.3) …<br>dpkg: error processing package tomcat7 (–configure):<br> subprocess installed post-installation script returned error exit status 10<br>Errors were encountered while processing:<br> tomcat7<br>E: Sub-process /usr/bin/dpkg returned an error code (1)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">通过shutdown命令重启计算机（加now则是立即重启）</div><div class="line">shutdown -r now</div></pre></td></tr></table></figure>
           
         
       
@@ -353,6 +1320,10 @@
   </section>
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
 
 
           </div>
@@ -391,13 +1362,20 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">14</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
