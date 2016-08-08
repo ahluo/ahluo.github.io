@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -96,7 +96,7 @@
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Muse',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -250,8 +250,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/04/22/mysql导入导出/" itemprop="url">
-                  mysql导入导出
+                <a class="post-title-link" href="/2016/07/21/bug记录之tomcat意外关机自动重启后链接不上数据库除非手动重启/" itemprop="url">
+                  bug记录之tomcat意外关机自动重启后链接不上数据库除非手动重启
                 </a>
               
             
@@ -264,8 +264,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-22T20:15:22+08:00" content="2016-04-22">
-              2016-04-22
+            <time itemprop="dateCreated" datetime="2016-07-21T19:28:02+08:00" content="2016-07-21">
+              2016-07-21
             </time>
           </span>
 
@@ -278,8 +278,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Diary/" itemprop="url" rel="index">
-                    <span itemprop="name">Diary</span>
+                  <a href="/categories/Bug/" itemprop="url" rel="index">
+                    <span itemprop="name">Bug</span>
                   </a>
                 </span>
 
@@ -298,7 +298,7 @@
 
           
           
-             <span id="/2016/04/22/mysql导入导出/" class="leancloud_visitors" data-flag-title="mysql导入导出">
+             <span id="/2016/07/21/bug记录之tomcat意外关机自动重启后链接不上数据库除非手动重启/" class="leancloud_visitors" data-flag-title="bug记录之tomcat意外关机自动重启后链接不上数据库除非手动重启">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -322,387 +322,10 @@
       
         
           
-            <h3 id="导出"><a href="#导出" class="headerlink" title="导出"></a>导出</h3><p>例子：mysqldump -u root -p test&gt;d:\test.sql<br>注意：此备份只备份数据和数据结构，没有备份存储过程和触发器</p>
-<h3 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h3><p>mysql -u用户名 -p 数据库名 &lt; 数据库名.sql<br>范例：<br>mysql -uabc_f -p abc &lt; abc.sql<br>（导入数据库abc从abc.sql文件） </p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/18/Laravel Homestead安装记录/" itemprop="url">
-                  Laravel Homestead安装记录
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-18T19:28:02+08:00" content="2016-01-18">
-              2016-01-18
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Installation/" itemprop="url" rel="index">
-                    <span itemprop="name">Installation</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/01/18/Laravel Homestead安装记录/" class="leancloud_visitors" data-flag-title="Laravel Homestead安装记录">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>vagrant<br>virtualbox<br>git<br>cd到镜像所在目录<br>vagrant box add  laravel/homestead homestead.box<br>    —-Usage: vagrant box add [options] <name, url,="" or="" path=""><br>vagrant box list<br>git clone <a href="https://github.com/laravel/homestead.git" target="_blank" rel="external">https://github.com/laravel/homestead.git</a> Homestead<br>    目录里运行init.sh，会在windows家目录下生成一个名为 .homestead的文件夹<br>    —-ssh-keygen -t rsa -C “you@homestead”（git bash）<br>vagrant up<br>    方便调试还需要修改windows本地hosts文件 192.168.10.10  homestead.app</name,></p>
-<h3 id="homestead-box"><a href="#homestead-box" class="headerlink" title="homestead box"></a>homestead box</h3><p>composer install<br>npm install<br>bower install<br>gulp<br>php artisan serve</p>
-<h3 id="error1"><a href="#error1" class="headerlink" title="error1"></a>error1</h3><p>Fatal error: require(): Failed opening required ‘/home/vagrant/Code/test/bootstrap/../vendor/autoload.php’ (include_path=’.:/usr/share/php:’) in /home/vagrant/Code/test/bootstrap/autoload.php on line 17<br>解决方法运行composer install</p>
-<h3 id="error2"><a href="#error2" class="headerlink" title="error2"></a>error2</h3><p>No input file specified.<br>—-vagrant provision<br>note:help from<br><a href="http://www.sitepoint.com/quick-tip-get-homestead-vagrant-vm-running/" target="_blank" rel="external">http://www.sitepoint.com/quick-tip-get-homestead-vagrant-vm-running/</a></p>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="http://laravelacademy.org/post/2749.html" target="_blank" rel="external">[ Laravel 5.2 文档 ] 开始 —— Laravel Homestead</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/12/08/配置PHP7-laravel环境/" itemprop="url">
-                  配置PHP7+laravel环境
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-12-08T19:28:02+08:00" content="2015-12-08">
-              2015-12-08
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Installation/" itemprop="url" rel="index">
-                    <span itemprop="name">Installation</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-             <span id="/2015/12/08/配置PHP7-laravel环境/" class="leancloud_visitors" data-flag-title="配置PHP7+laravel环境">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="php7-php-ini"><a href="#php7-php-ini" class="headerlink" title="php7/php.ini"></a>php7/php.ini</h3><p>; extension=….<br>去掉;开启php扩展<br>extension=php_curl.dll<br>extension=php_mbstring.dll<br>extension=php_mysqli.dll<br>extension=php_openssl.dll<br>extension=php_pdo_mysql.dll</p>
-<p>extension_dir = “PHP path”</p>
-<h3 id="apache-conf-httpd-conf"><a href="#apache-conf-httpd-conf" class="headerlink" title="apache/conf/httpd.conf"></a>apache/conf/httpd.conf</h3><p>PHPIniDir “D:/phptools/php-7.0.0-Win32-VC14-x64/“<br>LoadModule php7_module “D:/phptools/php-7.0.0-Win32-VC14-x64/php7apache2_4.dll”</p>
-<p>上面这句PHPIniDir不加报错Fatal error: Uncaught ReflectionException: Class log does not exist in D:\phpwww\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:737 Stack</p>
-<p>DocumentRoot “D:/phpwww/laravel/“<br>Directory “D:/phpwww/laravel/“</p>
-<h3 id="composer"><a href="#composer" class="headerlink" title="composer"></a>composer</h3><p>需要使用openssl扩展所以需要Apache需要vc14</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/06/01/vim操作笔记/" itemprop="url">
-                  vim操作笔记
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-06-01T19:28:02+08:00" content="2015-06-01">
-              2015-06-01
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Diary/" itemprop="url" rel="index">
-                    <span itemprop="name">Diary</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-             <span id="/2015/06/01/vim操作笔记/" class="leancloud_visitors" data-flag-title="vim操作笔记">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="vim-初步使用"><a href="#vim-初步使用" class="headerlink" title="vim 初步使用"></a>vim 初步使用</h2><p>打开VIM，按下i建，进入编辑模式，编辑文字，按下esc建进入命令模式，按下:wq保存并且退出</p>
-<h2 id="跳到文件末尾"><a href="#跳到文件末尾" class="headerlink" title="跳到文件末尾"></a>跳到文件末尾</h2><p>shift+g </p>
-<h2 id="删除多行"><a href="#删除多行" class="headerlink" title="删除多行"></a>删除多行</h2><p>命令模式<br>:1,10d</p>
-<h2 id="不保存退出"><a href="#不保存退出" class="headerlink" title="不保存退出"></a>不保存退出</h2><p>:q!</p>
-
+            <p>tomcat停电关机，自动重启后链接不上mysql数据库，除非手动重启tomcat服务<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service tomcat7 restart</div></pre></td></tr></table></figure></p>
+<p>速度上虽然DBCP比C3P0快些，但是有BUG：当DBCP建立的数据库连接，因为某种原因断掉后，DBCP将不会再重新创建新的连接，导致必须重新启动Tomcat才能解决问题。采用C3P0作为数据库连接池。</p>
+<h2 id="spring-hibernate-c3p0-maven"><a href="#spring-hibernate-c3p0-maven" class="headerlink" title="spring+hibernate+c3p0+maven"></a>spring+hibernate+c3p0+maven</h2><h3 id="pom-xml"><a href="#pom-xml" class="headerlink" title="pom.xml"></a>pom.xml</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">&lt;dependency&gt;</div><div class="line">	&lt;groupId&gt;org.hibernate&lt;/groupId&gt;</div><div class="line">	&lt;artifactId&gt;hibernate-core&lt;/artifactId&gt;</div><div class="line">	&lt;version&gt;4.2.20.Final&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div><div class="line">&lt;dependency&gt;</div><div class="line">	&lt;groupId&gt;com.mchange&lt;/groupId&gt;</div><div class="line">	&lt;artifactId&gt;c3p0&lt;/artifactId&gt;</div><div class="line">	&lt;version&gt;4.2.20.Final&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div><div class="line">&lt;dependency&gt;</div><div class="line">    &lt;groupId&gt;org.hibernate&lt;/groupId&gt;</div><div class="line">    &lt;artifactId&gt;hibernate-c3p0&lt;/artifactId&gt;</div><div class="line">    &lt;version&gt;4.2.20.Final&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div><div class="line">&lt;dependency&gt;</div><div class="line">	&lt;groupId&gt;org.hibernate.common&lt;/groupId&gt;</div><div class="line">	&lt;artifactId&gt;hibernate-commons-annotations&lt;/artifactId&gt;</div><div class="line">	&lt;version&gt;4.0.4.Final&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div><div class="line">&lt;dependency&gt;</div><div class="line">	&lt;groupId&gt;org.hibernate.javax.persistence&lt;/groupId&gt;</div><div class="line">	&lt;artifactId&gt;hibernate-jpa-2.0-api&lt;/artifactId&gt;</div><div class="line">	&lt;version&gt;1.0.1.Final&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div></pre></td></tr></table></figure>
+<h3 id="applicationContext-xml"><a href="#applicationContext-xml" class="headerlink" title="applicationContext.xml"></a>applicationContext.xml</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">&lt;bean id=<span class="string">"dataSource"</span> class=<span class="string">"com.mchange.v2.c3p0.ComboPooledDataSource"</span> destroy-method=<span class="string">"close"</span>&gt;</div><div class="line">&lt;property name=<span class="string">"driverClass"</span>&gt;</div><div class="line">        &lt;value&gt;<span class="variable">$&#123;connection.driver_class&#125;</span>&lt;/value&gt;</div><div class="line">&lt;/property&gt;</div><div class="line">&lt;property name=<span class="string">"jdbcUrl"</span>&gt;</div><div class="line">	&lt;value&gt;<span class="variable">$&#123;connection.url&#125;</span>&lt;/value&gt;</div><div class="line">&lt;/property&gt;</div><div class="line">&lt;property name=<span class="string">"user"</span>&gt;</div><div class="line">	&lt;value&gt;<span class="variable">$&#123;connection.username&#125;</span>&lt;/value&gt;</div><div class="line">&lt;/property&gt;</div><div class="line">&lt;property name=<span class="string">"password"</span>&gt;</div><div class="line">	&lt;value&gt;<span class="variable">$&#123;connection.password&#125;</span>&lt;/value&gt;</div><div class="line">&lt;/property&gt;</div><div class="line">&lt;property name=<span class="string">"minPoolSize"</span> value=<span class="string">"10"</span>/&gt;</div><div class="line">&lt;property name=<span class="string">"maxPoolSize"</span> value=<span class="string">"20"</span>/&gt;</div><div class="line">&lt;property name=<span class="string">"maxIdleTime"</span> value=<span class="string">"30"</span>/&gt;</div><div class="line">&lt;property name=<span class="string">"acquireIncrement"</span> value=<span class="string">"3"</span>/&gt;</div><div class="line">&lt;/bean&gt;</div></pre></td></tr></table></figure>
           
         
       
@@ -734,7 +357,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/14/">14</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -767,7 +390,7 @@
       <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
+               src="/uploads/avatar.png"
                alt="AYL" />
           <p class="site-author-name" itemprop="name">AYL</p>
           <p class="site-description motion-element" itemprop="description"></p>
@@ -843,7 +466,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Pisces
   </a>
 </div>
 
@@ -908,6 +531,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
 
   
 
